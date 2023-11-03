@@ -1,0 +1,22 @@
+Homework 1
+
+Aahanaa, Amanda, Ned
+
+Pseudocode:
+
+Algorithm JoinNames(names)
+// let newName = ""
+// Y = name
+// P = parent's name
+set i = position of " " in names
+Y = names[0 to i]
+P = names[i+1 to length(names)-1]
+if Y ends with (e)
+    then newName = Y + "x" + P
+else if Y ends with (a/i/o/u)
+    then newname = Y[0 to length(Y)-2] + "ex" + P
+else if Y ends with (ex)
+    then newName = Y + P 
+else
+    newName = Y + "ex" + P 
+return newName
